@@ -1,0 +1,56 @@
+.Main{
+    
+    margin-bottom: 16px;;
+    
+}
+
+.Navbar a{
+    text-decoration:none;
+    font-family: valorant;
+    color: white;
+    position: relative;
+    margin:3px;
+}
+
+a:after {    
+    bottom: 2;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+.Logos h1{
+    margin: 0px;
+    font-family:valorant;
+    font: size 28px;
+    color: white;
+    text-align: center;
+}
+
+.Navbar{
+    text-align: center;
+    padding-top:16px ;
+}
+
+.app-head{
+    margin: 0px;
+    padding: 12px;
+    background-color: #2B2D2F;
+}
+
+
+@media (min-width: 768px){
+    .Navbar a{
+        margin:0 20px;
+    }
+}
