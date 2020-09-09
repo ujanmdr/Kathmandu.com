@@ -9,8 +9,7 @@
     font-family: valorant;
     color: white;
     position: relative;
-    margin-left:15px;
-    font-size: 18px;
+    margin-left:6px;
 }
 
 a:after {    
@@ -66,7 +65,7 @@ a:hover:after {
 .submenu > a{
     display: block;
     padding-top: 10px;
-    font: size 6px;
+    font-size: 14px;
 }
 .dropdown:hover > .submenu {
     display: block;
@@ -80,6 +79,52 @@ li{
     padding:0px;
 }
 
+.Kath{
+    width:100%;
+}
+.Kathmandu{
+    position: absolute;
+    top:160%;
+    left:20px;
+    color:white;
+    font-family: sans-serif;
+}
+
+.intro h1{
+    font-family: valorant;
+    color: white;
+    margin:0;
+    padding-top: 10px;
+    
+}
+
+.intro p{
+    font-family: Consolas;
+    color: white;
+    margin:0;
+    padding-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.line{
+    width: 112px;
+    height: 10px;
+    border-bottom: 4px solid orange;
+    position: absolute;
+    left:4px;
+}
+
+.body-intro{
+    background-color: #3D4849;
+}
+
+.sigal{
+    width: 100%;
+    height: 266px;
+}
+
+
 @media (min-width: 768px){
     .Navbar a{
         margin:0 20px;
@@ -88,5 +133,48 @@ li{
 
     .Logos h1{
         font-size: 24px;
+    }
+    
+    .Kath{
+        width:350px;
+        padding-top:10px;
+        float: right;
+        padding-right:10px
+    }
+
+    .body-intro{
+        display: flex;
+        justify-content: space-between;
+        background-color: #3D4849;
+    }
+
+    .Kathmandu{
+        position: absolute;
+        top:130%;
+        left:60%;
+        font-size:10px;
+        color:white;
+        font-family: sans-serif;
+    }
+
+    .line{
+        width: 200px;
+        height: 5px;
+        border-bottom: 3px solid orange;
+        position: absolute;
+        left:20px;
+
+    }
+    .sigal{
+        width: 95%;
+        height: 266px;
+        padding-left: 20px;
+    }
+
+    .intro p{
+        padding-left:20px;
+    }
+    .intro h1{
+        padding-left:20px;
     }
 }
