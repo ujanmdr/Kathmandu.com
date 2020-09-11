@@ -1,0 +1,85 @@
+.topic h1{
+    font-family: valorant;
+    color: white;
+    margin:0;
+    padding-top: 10px;
+}
+
+.body {
+    background-color: #3D4849;
+}
+
+.Bhairab{
+    width: 100%;
+    margin-top:10px
+}
+
+.lines{
+    width: 100px;
+    height: 10px;
+    border-bottom: 4px solid orange;
+    position: absolute;
+    left:18px;
+}
+
+.kumari-info{
+    position: absolute;
+    top:85%;
+    left:4%;
+    font-size:10px;
+    color:white;
+    font-family: sans-serif;
+}
+
+/* .lists{
+    font-family:valorant;
+    list-style: none;
+    color: white;  
+}
+
+.list-content:after {    
+    bottom: 2;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 10%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+.list-content:hover:after { 
+    width: 20%; 
+    left: 0; 
+  } */
+
+@media (min-width: 700px){
+    .lines{
+        width: 100px;
+        height: 5px;
+        border-bottom: 3px solid orange;
+        position: absolute;
+        left:20px;
+    }
+
+    .body{
+        display: flex;
+    }
+
+    .Bhairab{
+        width: 60%;
+        float: right;
+        margin-top:12px;
+        margin-right:10px;
+    }
+    
+    .kumari-info{
+            position: absolute;
+            top:134%;
+            left:52%;
+            font-size:10px;
+            color:white;
+            font-family: sans-serif;
+    }
+}

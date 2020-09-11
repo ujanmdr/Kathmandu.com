@@ -1,0 +1,84 @@
+.Main{
+    margin-bottom: 16px;;
+}
+
+.Navbar a{
+    text-decoration:none;
+    font-family: valorant;
+    color: white;
+    position: relative;
+    margin-left:6px;
+}
+
+.dropdown a:after {    
+    bottom: 2;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+.dropdown a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+.Logos h1{
+    margin: 0px;
+    font-family:valorant;
+    font: size 28px;
+    color: white;
+    text-align: center;
+}
+
+.Navbar{
+    text-align: center;
+    padding-top:0px ;
+}
+
+.app-head{
+    margin: 0px;
+    padding: 4px;
+    background-color: #2B2D2F;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.submenu{
+    display: none;
+    background: #2b2d2f;
+    padding-top:10px;
+    list-style: none;
+    width: max-content;
+}
+.submenu > a{
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.dropdown:hover > .submenu {
+    display: block;
+}
+
+ul{
+    padding:0px;
+}
+
+li{
+    padding:0px;
+}
+
+@media (min-width: 700px){
+    .Navbar a{
+        margin:0 20px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,60 @@
+.footer-body{
+    background:  #2B2D2F;
+    margin: 0;
+}
+
+.Lgo h1{
+    margin-top:6px;
+    font-family: valorant;
+    font-size: 20px;
+    color: white;
+
+}
+
+.Lgo{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+
+.footer-section a{
+    font-family: valorant;
+    color:white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer-section li{
+    list-style: none;
+}
+
+.neplive{
+    font-family:valorant;
+    color: white;
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 700px){
+    .footer-section{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .footer-section a{
+        font-family: valorant;
+        color:white;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    
+    .footer-section li{
+        list-style: none;
+    }
+}
