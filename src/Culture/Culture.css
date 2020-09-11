@@ -7,11 +7,13 @@
 
 .body {
     background-color: #3D4849;
+   
 }
 
 .Bhairab{
     width: 100%;
-    margin-top:10px
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 .lines{
@@ -24,11 +26,21 @@
 
 .kumari-info{
     position: absolute;
-    top:85%;
+    top:110%;
     left:4%;
     font-size:10px;
     color:white;
     font-family: sans-serif;
+}
+
+.topic p {
+    font-family: ConsolasC;
+    color: white;
+    margin:0;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 /* .lists{
@@ -65,10 +77,11 @@
 
     .body{
         display: flex;
+        padding-left:20px;
     }
 
     .Bhairab{
-        width: 60%;
+        width: 90%;
         float: right;
         margin-top:12px;
         margin-right:10px;
@@ -81,5 +94,21 @@
             font-size:10px;
             color:white;
             font-family: sans-serif;
+    }
+
+    .topic p {
+        font-family: ConsolasC;
+        color: white;
+        margin:0;
+        padding-top: 20px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .dashai{
+        width: 100%;
+        margin-top: 20px;
+        height: 230px;
     }
 }

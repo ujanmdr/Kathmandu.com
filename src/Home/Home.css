@@ -1,6 +1,7 @@
 
 .Kath{
     width:100%;
+    margin-bottom:10px;
 }
 .Kathmandu{
     position: absolute;
@@ -19,7 +20,7 @@
 }
 
 .intro p{
-    font-family: ConsolasC;
+    font-family: Consolas;
     color: white;
     margin:0;
     padding-top: 20px;

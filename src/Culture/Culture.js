@@ -1,6 +1,7 @@
 import React from "react"
 import "./Culture.css"
 import Bhairab from "../Assets/bhairab.jpg"
+import Dashai from "../Assets/dashai.jpg"
 function Culture() {
     return(
         <div className="body">
@@ -11,6 +12,8 @@ function Culture() {
                     <li><a className="list-content">Festival</a></li>
                     <li><a className="list-content">Ethic Groups</a></li>
                 </ul> */}
+                <p>Nepal was declared a secular country by the Parliament on 18th May 2006. Religions practiced in Nepal are: Hinduism, Buddhism, Islam, Christianity, Jainism, Sikhism, Bon, ancestor worship and animism. The majority of Nepalis are either Hindus or Buddhists and these two religions have co-existed in harmony through centuries.</p>
+                <img className="dashai" src={Dashai}></img>
         </div>
         <div>
             <img className="Bhairab" src={Bhairab}></img>
